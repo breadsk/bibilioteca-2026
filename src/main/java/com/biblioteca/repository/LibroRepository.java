@@ -15,12 +15,12 @@ public class LibroRepository {
 
     //metodo para inicializar los datos ficticios
     @PostConstruct
-    public void init(){
-        listaLibros.add(new Libro(1,"978-0134685991","Effective Java","Addison-wesley",2018,"Joshua Bloch"));
-        listaLibros.add(new Libro(2,"978-1617294956","Spring in action","Manning",2020,"Craig Walls"));
-        listaLibros.add(new Libro(3,"978-1491950357","Design Data-Intensive Application","O'Reilly",2017,"Martin Kleppmann"));
-        listaLibros.add(new Libro(4,"978-0132350884","Clean Code","Prentice Hall",2008,"Robert C.Martin"));
-    }
+    // public void init(){
+    //     listaLibros.add(new Libro(1,"978-0134685991","Effective Java","Addison-wesley",2018,"Joshua Bloch"));
+    //     listaLibros.add(new Libro(2,"978-1617294956","Spring in action","Manning",2020,"Craig Walls"));
+    //     listaLibros.add(new Libro(3,"978-1491950357","Design Data-Intensive Application","O'Reilly",2017,"Martin Kleppmann"));
+    //     listaLibros.add(new Libro(4,"978-0132350884","Clean Code","Prentice Hall",2008,"Robert C.Martin"));
+    // }
 
     //Metodo que retorna todos los libros
     public List<Libro> getAllBooks(){
